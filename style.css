@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 10%;
+   background: url(bg-image.jpg);
+   background-size: cover;
+}
+.top-buttons {
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
+}
+
+.btn-home,
+.btn-back {
+    background-color: #ccc;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.btn-home:hover,
+.btn-back:hover {
+    background-color: #aaa;
+}
+
+.fa-home,
+.fa-arrow-left {
+    margin-right: 5px;
+}
+
+.container{
+   color:orangered;
+    box-shadow: 0px 0px 10px rgab(0,0,0,0.1);
+    border-radius: 10px;
+    background-color: #FAF9F6;
+    padding: 50px;
+    font-weight: 200;
+}
+
+.container .text{
+    font-size: 35px;
+    font-weight: 600;
+    margin: 10px 0px;
+    text-align: center;
+    background:darkorange;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.form-row input[type="submit"]{
+    margin-right: 20%;
+    margin-left: 10%;
+    color: rgb(0, 0, 0);
+}
+.form-row input[type="reset"] {
+    margin-left: 20%;
+    margin-right: 10%;
+    color: rgb(0, 0, 0);
+}
+.form-row input[type="submit"],
+.form-row input[type="reset"] {
+    padding: 10px 20px;
+    background:orangered;
+    border: none;
+ 
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 4px;
+    margin-top: 50px;
+   
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.home-icon{
+    color: sandybrown;
+    position: relative;
+    right: 350px;
+    bottom: 640px;
+}
+.form-row input[type="reset"] {
+    background:	orangered;
+}
+
+.form-row input[type="submit"]:hover{
+    color: rgb(255, 255, 255);
+    opacity: .7;
+}
+.form-row input[type="reset"]:hover {
+    color: rgb(255, 255, 255);
+    opacity: .7;
+}
+
+
+
+
+ .main-title{
+    font-size: 20px;
+    font-weight: 500;  
+    margin: 10px;
+}
+.gender-details .category{
+   display: flex;
+   width: 50%;
+   margin: 14px 0;
+   justify-content: space-between;
+}
+.gender-details .category label{
+    display: flex;
+    align-items: center;
+}
+
+.gender-details .category .dot{
+    height: 18px;
+    width: 18px;
+    background: #aa9898;
+    border-radius: 50%;
+    margin-right: 10px ;
+    border: 5px solid transparent;
+    transition: all 0.3s ease;
+}
+
+
+#dot-1:checked ~ .category label .one,
+#dot-2:checked ~ .category label .two,
+#dot-3:checked ~ .category label .three{
+    border-color: #d9d9d9;
+    background: #32183b;
+}
+
+form input[type="radio"]{
+    display: none;
+}
+
+input[type=text], select {
+
+    width: 95%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+   
+  }
+
+  label{
+    opacity: 70%;
+  }
+ 
+
+      .homepage  {
+        font-size: 35px;
+        padding-left: 5px;
+        color: #f0e3e3;
+        background:#FF1493;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        cursor: pointer;
+        float: right;
+        
+  
+      }
+ 
+      .homepage:hover{
+          background:rgb(255, 255, 255);
+          -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
+   
